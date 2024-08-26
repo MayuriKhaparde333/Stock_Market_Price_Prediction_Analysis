@@ -1,22 +1,18 @@
-[![DOI](https://zenodo.org/badge/742607049.svg)](https://zenodo.org/doi/10.5281/zenodo.10498988)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis/blob/master/LICENSE)
-[![Code Coverage](https://codecov.io/gh/NCSU-Fall-2022-SE-Project-Team-11/XpensAuditor---Group-11/branch/main/graphs/badge.svg)](https://codecov.io)
-![GitHub contributors](https://img.shields.io/badge/Contributors-1-brightgreen)
-[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis/edit/master/README.md)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis)
-![GitHub issues](https://img.shields.io/github/issues/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis)
-[![GitHub Repo Size](https://img.shields.io/github/repo-size/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis.svg)](https://img.shields.io/github/repo-size/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis.svg)
-[![GitHub last commit](https://img.shields.io/github/last-commit/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis)](https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis/commits/master)
-![GitHub language count](https://img.shields.io/github/languages/count/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis)
-[![Commit Acitivity](https://img.shields.io/github/commit-activity/m/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis)](https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis)
-[![Code Size](https://img.shields.io/github/languages/code-size/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis)](mpp-backend)
-![GitHub forks](https://img.shields.io/github/forks/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis?style=social)
-![GitHub stars](https://img.shields.io/github/stars/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis?style=social)
+
 
 # Stock-Market-Prediction-Web-App-using-Machine-Learning
 **Stock Market Prediction** Web App based on **Machine Learning** and **Sentiment Analysis** of Tweets **(API keys included in code)**. The front end of the Web App is based on **Flask** and **Wordpress**. The App forecasts stock prices of the next seven days for any given stock under **NASDAQ** or **NSE** as input by the user. Predictions are made using three algorithms: **ARIMA, LSTM, Linear Regression**. The Web App combines the predicted prices of the next seven days with the **sentiment analysis of tweets** to give recommendation whether the price is going to rise or fall.
+
+Objectives
+Data Collection & Preprocessing: Gather historical stock price data along with relevant financial indicators such as volume, moving averages, and technical indicators like RSI and MACD. The data is cleaned, normalized, and transformed to make it suitable for model training.
+
+Feature Engineering: Create new features from the existing data to capture underlying market trends and patterns, such as lagged returns, rolling averages, and volatility measures, to improve the model's predictive power.
+
+Model Development: Experiment with various machine learning algorithms including Linear Regression, Decision Trees, Random Forests, and advanced models like LSTM (Long Short-Term Memory) networks, which are well-suited for time series prediction.
+
+Model Evaluation: Use evaluation metrics such as RMSE (Root Mean Square Error), MAE (Mean Absolute Error), and R-squared to assess model performance. Perform cross-validation and hyperparameter tuning to optimize the models for better accuracy and robustness.
+
+Prediction & Visualization: Generate future stock price predictions and visualize the results using tools like Matplotlib and Seaborn. Compare predicted prices with actual prices to gauge the model’s effectiveness.
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -41,8 +37,8 @@
 
 **Admin Creds:** <br/>
 Username: admin <br/>
-Email Address: stockpredictorapp@gmail.com <br/>
-Password: Samplepass@123 <br/>
+Email Address: stockpreditionanalysis@gmail.com <br/>
+Password: Samplepass@333 <br/>
 
 There are two roles in the system: **Admin** and **User**.<br/><br/>
 Users can:<br/>
@@ -98,7 +94,6 @@ Admin can:<br/>
 5. Run ```python main.py``` to start server.
 7. Go to ```localhost/wordpress``` to access the app.
 
-Find more screenshots in the <b>screenshots folder</b> Or <a href="https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis/tree/master/screenshots">click here</a>
 
 
 ## Authors
@@ -108,6 +103,4 @@ Find more screenshots in the <b>screenshots folder</b> Or <a href="https://githu
 <li>LinkedIn: https://www.linkedin.com/in/mayuri-khaparde/
 
 
-## Links
-* [Issue tracker](https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis/issues)
-* [Source code](https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis)
+
